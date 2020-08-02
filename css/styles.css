@@ -305,22 +305,16 @@ address {
 }
 
 /* ANCHOR Чем мы занимаемся */
-.what-we-do .title {
-  margin-bottom: 50px;
-}
-
 .what-we-do .caption {
   padding: 27px;
-}
 
-.what-we-do .caption {
   color: #ffffff;
   background-color: var(--caption-bg);
 }
 
-.what-we-do > .title,
+.what-we-do .title,
 .our-team .title,
-.customers > .title {
+.customers .title {
   margin-bottom: 50px;
 
   font-weight: 700;
