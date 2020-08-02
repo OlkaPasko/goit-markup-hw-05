@@ -61,11 +61,6 @@ address {
 }
 
 /* ANCHOR Шапка сайта */
-.page-header {
-  margin-bottom: 0px;
-  border-bottom: 1px solid #ececec;
-}
-
 .page-header .container {
   width: 1200px;
   height: 80px;
@@ -75,6 +70,7 @@ address {
   padding-right: 15px;
   padding-top: 24px;
   padding-bottom: 25px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -90,7 +86,6 @@ address {
 
 .link {
   display: block;
-
   text-decoration: none;
 }
 
@@ -166,11 +161,12 @@ address {
   align-items: center;
 }
 
+/* FIXME */
 .link,
 .contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  /* line-height: 1.14; */
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
@@ -617,6 +613,10 @@ footer .phone {
 }
 
 /* ANCHOR Portfolio page */
+.page-header.portfolio-nav .container {
+  border-bottom: 1px solid #ececec;
+}
+
 .portfolio {
   padding: 94px 0px;
   display: flex;
